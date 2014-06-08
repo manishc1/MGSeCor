@@ -20,7 +20,8 @@ def detag(string):
     words = string.split(' ')
     new_words = []
     for word in words:
-        if (word[0] == '&' and word[-1] == ';'):
+        word.strip()
+        if ((len(word) == 0) or (word[0] == '&' and word[-1] == ';')):
             continue
         new_words.append(word)
     return ' '.join(new_words)
@@ -37,7 +38,7 @@ def depunctuate(string):
     """
     Extract alphanumeric words from the string.
     """
-    return re.findall("[\w']+", string)
+    return re.findall("[\w',.!?]+", string)
 
 
 def dedigit(string):
