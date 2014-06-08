@@ -1,0 +1,2111 @@
+# Glossary of Computer Related Terms
+# http://www.math.utah.edu/~wisnia/glossary.html
+
+
+access
+
+# The reading or writing of data; as a verb, to gain entry to data. Most commonly used in connection with information access, via a user ID, and qualified by an indication as to the kinds of access that are permitted. For example, read-only access means that the contents of the file may be read but not altered or erased.
+
+
+Access Control List
+
+# (ACL) A list of the services available on a server, each with a list of the hosts permitted to use the service. access time
+# The time interval between the instant that data is requested and the instant that it is received.
+
+
+account
+
+# Your subscription to a networked computer system.
+
+
+account name
+
+# Same as your login ID or user ID. The word you type at the "Login:" prompt; your electronic name.
+
+
+address
+
+# A character or group of characters that identify a register, a location or some other data source or destination.
+
+
+aggregate
+
+# n. A total created from smaller units. For instance, the population of a county is an aggregate of the populations of the cities, rural areas, etc. that comprise the county.
+# v. To total data from smaller units into a large unit. Example: "The Census Bureau aggregates data to preserve the confidentiality of individuals."
+
+
+aggregate data
+
+# Data that have been aggregated.
+
+
+algorithm
+
+# A set of rules for solving a problem in a given number of steps.
+
+
+alias
+
+# See nickname.
+
+
+analog
+
+# A method of storing information, used by most audiotapes, videotapes and laserdiscs (and all LP phonograph records, remember those?). An analog device uses a physical quantity, such as length or voltage, to represent the value of a number. By contrast, digital storage relies on a coding system of numeric units.
+
+
+Application Layer
+
+# Layer seven of the OSI reference model. It serves as a means by which applications access communications services.
+
+
+application
+
+# The use to which a data processing system is put within a given discipline, such as a payroll application, an airline reservation application or a network application.
+
+
+application program
+
+# A program that is written for or by a user that applies to the users discipline.
+
+
+application software
+
+# A group of programs designed to perform tasks that can be tailored to a users specific needs.
+
+
+archive
+
+# v. To copy programs and data onto an auxiliary storage medium (disk, tape,etc.) for long-term retention, such as when disk space has become full. 
+# n. A file with a structure that allows storage of multiple files within it in such a way that the names of the files can be listed and files can be individually added and deleted. The terminology is typically associated with microcomputers. On a mainframe, such a file is typically called a library.
+
+
+argument
+
+# A value supplied to a procedure, macro, subroutine, or command that is required in order to evaluate that procedure, macro, subroutine, or command. Synonymous with parameter.
+
+
+ASCII
+
+# American Standard Code for Information Interchange (pronounced ask-ee). The form in which text characters are handled in most computer systems and networks. ASCII text has no special characters for formatting such as underlined or bold characters, font changes, etc., thus can be viewed on any personal computer or terminal.
+
+
+assembler
+
+# A program that converts symbolically-coded programs into object level, machine code. In an assembler program, unlike a compiler, there is a one-to-one correspondence between human-readable instructions and the machine-language code.
+
+
+ATM
+
+# Asynchronous Transfer Mode. A standard for cell relay that uses fixed length cells of 53 bytes, 5 bytes of which are headers. Can support multiple services including voice, video and data.
+
+
+ATM Forum
+
+# An industry-wide effort that is now an international consortium of more than 400 companies who define ATM interoperability specifications and promote industry-wide cooperation to help proliferate ATM and thus drive implementation costs down.
+
+
+audit
+
+# A personal or computerized review process that accounts for the adequacy, effectiveness, security and overall functionality of a data activity.
+
+
+authentication
+
+# Process of establishing who you are.
+
+
+authorization
+
+# Permission to access non-public information or use equipment that is either fully or partially restricted. Process of establishing what you can do.
+
+
+autonomous system
+
+# A collection of one or more networks that are administrated by the same entity. Each regional network (such as SURAnet) is an autonomous system.
+
+
+backbone
+
+# Refers to a piece of cable used to connect different floors or departments together into a network. Also generalized to a network that connects networks together.
+
+
+background processing
+
+# Users may use a terminal for one project and concurrently submit a job that is placed in a background queue that the computer will run as resources become available. Also refers to any processing in which a job runs without being connected to a terminal.
+
+
+backspace
+
+# A keyboard operation that moves the cursor one place to the left. A destructive backspace erases characters as it goes, thus allowing users to modify what has been typed (distinguished from the left- arrow key).
+
+
+backup
+
+# n. A resource that is or can be used as a substitute when a primary resource fails or when a file has been corrupted.
+# v. To save as in to make a copy in case of future failure or corruption.
+
+
+bandwidth
+
+# A piece of the spectrum occupied by some form of signal, where it is television, voice, fax data, etc.. Signals require a certain size and location of bandwidth in order to be transmitted. The higher the bandwidth, the faster the signal transmission, and thus allowing for a more complex signal such as audio or video. Because bandwidth is a limited space, when one user is occupying it, others must wait their turn. Bombarding the Internet with unnecessary information is referred to as "taking up bandwidth."
+
+
+baseband
+
+# A network medium that uses only one carrier frequency. Examples are Ethernet and PhoneNet.
+
+
+BASIC
+
+# Beginners All-purpose Symbolic Instruction Code. A commonly used personal-computer language, first developed at Dartmouth during the 1960s.
+
+
+batch processing
+
+# Originally, a method of organizing work for a computer system, designed to reduce overhead by grouping similar jobs. In one scheme, jobs were collected into batches, each requiring a particular compiler. The compiler was loaded, and the jobs submitted in sequence to the compiler. The term has come to be applied to background processing of jobs not requiring user intervention on multiuser systems. See compiler.
+
+
+batch query
+
+# A query that has been saved so that it can be used more than once and run in the background.
+
+
+binary
+
+# A file containing one or more strings of data bits which are not printable characters. Some binary files may be computer programs or other forms of data that contain no text characters at all. Binary files cannot be displayed on screen, but can be downloaded for use with appropriate applications on your computer. Binary (base 2) is also the building block of computer information, representing "on" or "off" and "true" or "not true" as 1 or 0.
+
+
+binary number
+
+# A number written using binary notation which only uses zeros and ones. Example: decimal number seven in binary notation is: 111.
+
+
+bit
+
+# A binary digit, either a 0 or 1. In the U. S. , 8 bits make up one byte; in Europe, byte equals one word.
+
+
+bitmapped terminal
+
+# A terminal that can turn individual screen dots on or off.
+
+
+BITNET
+
+# Because Its Time NETwork. Started in 1981 by City College of New York and Yale University, it is a network linking hosts at educational and research institutions in the United States, Canada, Europe and other countries using the RSCS protocols. Merged with CSNet to form CREN.
+
+
+bits per second (bps)
+
+# The speed at which bits are transmitted.
+
+
+block
+
+# A sequence of words or characters written contiguously, such as into a group, by a computer and stored on a disk, diskette, magnetic tape, etc.
+
+
+bold font
+
+# A way of emphasizing a word of text, as in darker type or brighter characters on a video display terminal.
+
+
+booting
+
+# Turning on your computer.
+
+
+break programming language
+
+# An interruption to a transmission; usually a provision to allow a controlled terminal to interrupt the controlling computer.
+
+
+bridge network
+
+# A device that connects two networks and passes traffic between them based only on the node address, so that traffic between nodes on one network does not appear on the other network. For example, an Ethernet bridge only looks at the Ethernet address.
+
+
+broadband
+
+# A communications medium on which multiple signals are simultaneously transmitted at different frequencies. Also refers to switching capability implemented on this medium that allows communication between devices connected to it. In telecommunications it is defined as any channel with a bandwidth greater than voice grade (4 KHz).
+
+
+broadcast
+
+# A single message addressed to all nodes on a network.
+
+
+browser
+
+# A software tool used to read electronic documents. Mosaic, NetScape and Lynx are the most popular browsers.
+
+
+buffer
+
+# A temporary memory for data, normally used to accommodate the difference in the rate at which two devices can handle data during a transfer.
+
+
+bug
+
+# An error. Can be a hardware malfunction or a software programming error.
+
+
+bulletin board (BBS)
+
+# A computer system which can be called using a modem.
+
+
+BUS topology
+
+# Network wiring commonly used by Ethernet in which all nodes on the network see all packets.
+
+
+byte
+
+# A group of adjacent binary digits, usually 8, on which a computer operates as a unit; often used to represent a single character. (See bit. )
+
+
+cable
+
+# A set of wires connecting pieces of computer hardware.
+
+
+carriage return
+
+# The or key on your keyboard. On-line commands often must be followed by .
+
+
+CD-ROM
+
+# Compact Disk - Read Only Memory. Optical (CD) disks that are mastered and then can only be read; i.e., the data cannot be manipulated, removed, etc.
+
+
+cell relay
+
+# Packet-switching using small, fixed-sized packets called cells. The fixed size allows for very high speed switching. It is the basis for SMDS and ATM.
+
+
+channel
+
+# Any medium by which information can be transmitted. For example, the air is a channel for our voices just as much as a fiber optic line can be data for a video signal.
+
+
+character
+
+# Any symbol (usually alphabetic, numeric, or punctuation) that can be entered into your computer.
+
+
+character set
+
+# A set of characters handled by a specified machine; sets include alphabetic characters, numbers, symbols, graphics characters, a space character and control characters. Graphics characters denote a printed mark; control characters produce some particular effect. Two of the most widely used sets are ASCII and EBCDIC.
+
+
+chip
+
+# A tiny piece of semi-conductive material, usually based on silicon, used in the manufacture of electronic components.
+
+
+client
+
+# A computer program that uses the services of another computer program. Software that extracts information from a server; your auto-dial phone is a client, and the phone company is its server.
+
+
+client/server
+
+# A relationship in which client software obtains services from a server on behalf of a person.
+
+
+Client-Server Interface
+
+# An architecture that provides for the splitting of user requests (usually called clients) and a related server function, most commonly across a network. The combined effect is to provide the clients with access to some service such as databases, printing, etc.
+
+
+COBOL
+
+# COmmon Business Oriented Language The first standardized computer language. At Emory it is most commonly used for administrative applications.
+
+
+code
+
+# n. A language for expressing operations to be performed by a computer.
+# v. To write in such a language.
+
+
+collision
+
+# The result of two nodes transmitting at the same time on a multiple access network such as Ethernet. Both packets may be lost or partial packets may result.
+
+
+column
+
+# A vertical arrangement of characters or other expressions.
+
+
+command
+
+# A request, typed from a terminal or embedded in a file, to perform an operation or to execute a particular program.
+
+
+communications line
+
+# A physical medium (wire, microwave beam) used to transmit data.
+
+
+communications program
+
+# A program that makes a computer act as a terminal to another computer. Communications programs usually provide for file transfer between microcomputers and mainframes.
+
+
+compiler
+
+# A program that translates human-readable programs into a form the computer understands. The input (source code) to the compiler is a description of an algorithm in a problem- oriented language; its output (object code) is an equivalent description of the algorithm in a machine-oriented language.
+
+
+computer
+
+# A device or system that is capable of carrying out a sequence of operations in a distinctly and explicitly defined manner. The operations are frequently numeric computations or data manipulations, but also include data input and output. The ability to branch within sequences is its key feature.
+
+
+concentrator
+
+# A device that brings together at a common center connections to a particular kind of network (such as Ethernet), and implements that network internally.
+
+
+conference
+
+# An electronic meeting place dedicated to a particular subject where users come to participate in discussions or group projects. Conferences can be used to post a variety of information such as news services, newsletters, and statistics; also called "newsgroups," "bulletin boards," or "echoes." An electronic conference provides a many-to-many communication medium, as opposed to the person-to-person nature of e-mail. All conferences have a particular subject or purpose, and the topics and responses they contain might provide items of news, ideas, questions, or other information in almost any form. Some special-purpose conferences may have restricted access, allowing some users to write messages, some only to read, and some neither. The person responsible for the technical maintenance and/or community communication is called the "conference facilitator."
+
+
+configuration
+
+# The particular hardware elements and their interaction in a computer system for a particular period of operation.
+
+
+connect time
+
+# Time that elapses while the user of a terminal is connected to a time-sharing system; it is measured by the duration between logon and logoff.
+
+
+control character
+
+# One of 32 characters of the ASCII character set that defines a control function for a character entry and display device such as a terminal. Examples are carriage return, tab, form feed and bell.
+
+
+control key
+
+# A special function key on a computer keyboard, frequently used in combination with alphabetic keys, to enter commands.
+
+
+copy
+
+# A function that reads data from a source, leaving the source data unchanged and writes it elsewhere. One example would be to copy a deck of punched cards onto magnetic tape.
+
+
+CPU
+
+# Central Processing Unit. The main internal component of a computer where executions of instructions are carried out and calculations are performed.
+
+
+crash
+
+# A computer system is said to crash when it stops working for some reason and must be restarted.
+
+
+cursor
+
+# A symbol on a display screen that indicates the position at which the next character entered will be displayed. The symbol often blinks so that it can be easily noticed.
+
+
+cursor control
+
+# The keyboard keys used to position the cursor on a display screen. They are usually keys labeled with arrows indicating the direction of movement.
+
+
+Cyberspace
+
+# The nebulous "place" where humans interact over computer networks (the Internet is considered Cyberspace). Coined by William Gibson in Neuromancer.
+
+
+Data Link Layer
+
+# Layer two of the OSI reference model. It controls the transfer of information between nodes over the Physical Layer.
+
+
+data
+
+# Information suitable for communication, interpretation or processing by a computer.
+
+
+data communications
+
+# The collection and redistribution of data through communications channels, often including operations such as coding, decoding and validation.
+
+
+data entry
+
+# The entry of data into a computer or onto a computer-readable medium by an operator from a single data device, such as a card reader or keyboard.
+
+
+data processing
+
+# The systematic performance of operations upon data, for example, handling, merging, sorting and computing.
+
+
+Dataset
+
+# A file or group of files associated with one part of a study.
+
+
+database
+
+# A collection of interrelated data values that may be integrated permanently into a single connected structure or integrated temporarily for each interrogation, known as a query. In its most technical sense, database implies that any of the data may be used as a key for specific queries. In more common usage it means any accessible collection of information and that only a limited set of data values may be used to specify queries.
+
+
+database management system
+
+# A systematic approach to storing, updating, securing and retrieving information stored as data items, usually in the form of records in one or more files.
+
+
+DBMS
+
+# DataBase Management System.
+
+
+debug
+
+# To detect, trace and eliminate errors in computer programs.
+
+
+default
+
+# A software function or operation which occurs automatically unless the user specifies something else.
+
+
+delete key
+
+# Personal computers normally allow deletion of typing mistakes by either the backspace key or the Del key. Users must either specify which of these keys they wish to use, or set their communication software to match whichever key the network expects.
+
+
+DHCP
+
+# Dynamic Host Configuration Protocol. Supports booting workstations and other devices that need information from outside before they can complete the booting process, such as an IP number or name of program file to download.
+
+
+dial-up
+
+# To connect to a computer by calling it on the telephone.
+
+
+dictionary file
+
+# A special form of machine-readable codebook that contains information about the structure of a datafile and the locations and, often, the names of variables variables in the datafile. Typically, you use a dictionary file and a datafile together with statistical software; the statistical software uses the dictionary so that you may specify variables by name, rather than having to specify their locations in the file.
+
+
+digital
+
+# Used in computerese to describe information that can be represented by a collection of bits.
+
+
+direct access
+
+# The ability to read or write data directly from or to any location on a storage device without having to refer to data that was previously written. Files written with direct access do not have to be read sequentially starting at the beginning.
+
+
+directory
+
+# A logical container of files and other directories; synonymous with folder. Typically implemented as a file that contains pointers (directions) to files or other directories.
+
+
+disk or diskette
+
+# A small, flat, either rigid or floppy magnetic disk for storing data permanently. Magnetic medium for data storage. Either "floppy" diskettes (720K to 1.4 megabytes), or "hard" disks (usually 20 megabytes or more).
+
+
+display
+
+# A device that enables information, either textual or pictorial, to be seen but not permanently recorded. The most widely used kind is the cathode-ray tube.
+
+
+distributed
+
+# Processing resides in more than one computer in a network.
+
+
+distributed application
+
+# Application designed so that components run on different - but cooperating - systems on a network.
+
+
+distributed database
+
+# The data resides in more than one physical database in a network. Access to the data involves more than one database server. Clients may have to connect to more than one server directly and integrate the data they receive according to the applications needs.
+
+
+distributed file system
+
+# Allows files on remote nodes of a network to appear locally connected.
+
+
+document
+
+# A medium and the data recorded on it for human use; for example, a report sheet or book. By extension, any record that has permanence and that can be read by human or machine.
+
+
+documentation
+
+# A collection of organized documents or the information recorded in documents. Also instructional material specifying the inputs, operations and outputs of a computer program or system.
+
+
+DOS
+
+# Disk Operating System. A Microsoft program that controls a computers transfer of data to and from a hard or floppy disk. DOS generally refers to the operating systems for the IBM PCs and their clones. Also the name of an old operating system on IBM mainframes.
+
+
+dot-matrix printer
+
+# A printer that creates each character from an array of dots. The dots are formed by pins striking a ribbon against the paper, one pin for each dot position. The printer may be a serial printer (printing one character at a time) or a line printer.
+
+
+down system
+
+# A computer is down when it is not running. It may be shut down for maintenance, hardware failure, or failure of the operating system or user program.
+
+
+download
+
+# The transfer of information from a remote computer system to the users system. Opposite of upload.
+
+
+downtime
+
+# The time interval during which equipment is nonfunctional.
+
+
+drag and drop
+
+# A protocol supported by OPEN LOOK and Macintosh System 7 that allows a user to specify the input file to an application by dragging the icon representing the file onto the applications icon and dropping it there. OPEN LOOK also recognizes dragging the icon into the applications input panel. For example, dragging a files icon into the printool application causes it to be printed.
+
+
+drive
+
+# A generic term used to identify the equipment that serves as a player or recorder for a storage medium.
+
+
+dump
+
+# A printed representation of the contents of a computer storage device, usually main memory, backed-up when a system crash or other failure has occurred. As a verb, refers to a large amount of data.
+
+
+edit
+
+# To enter, modify or delete data.
+
+
+editor
+
+# A program that permits the review and editing of the contents of a file.
+
+
+e-mail
+
+# electronic mail. Information exchanged by electronic means in a manner analogous to that provided by the postal service.
+
+
+e-mail address
+
+# The way you specify where an E-Mail message should be delivered.
+
+
+e-mail server
+
+# A computer system that provides MTA, mailbox storage and directory services and optionally UA services.
+
+
+e-mail service
+
+# UA, MTA, mailbox storage, and directory service.
+
+
+encapsulation
+
+# Combining or defining a data structure of attributes and a group of associated functions and behaviors as a single object.
+
+
+enter key
+
+# A special function key on a keyboard used to transmit a line or screen of data from a display screen to a computer. Often used interchangeably with return key.
+
+
+environment
+
+# The setting in which computing takes place that is the aggregate of the hardware, software, policies and procedures relating to their use. The computing environment may be influenced by software, such as the operating system (for example, a UNIX environment) or the vendor (for example, an IBM environment).
+
+
+erase
+
+# To remove data from a data medium, leaving the medium available for recording new data.
+
+
+error message
+
+# A message that reports the detection of an error.
+
+
+error checking
+
+# Uploading or downloading transfer check employed to identify errors in data transmission.
+
+
+Ethernet
+
+# A local area network originally developed by Xerox for linking personal computers. Later adapted by DEC and Intel as well and subsequently adopted as an international standard called 802.3. It transmits data at 10 megabits per second. All computers on a network were originally connected to a coaxial cable up to one kilometer. Each computer monitors all transmissions, looking for packets containing its identifier as the destination. Only one signal may be present on the channel at a time and no single computer controls transmissions. Several upper layer protocols, such as DECnet and TCP/IP use Ethernet as an underlying transport mechanism. Ethernet is to be contrasted with other data link protocols such as token ring, DDCMP or SDLC. Uses CSMA/CD.
+
+
+execute
+
+# To interpret a computer instruction and carry out the operations specified in the instruction.
+
+
+fiber optics
+
+# A high speed channel for transmitting data. Made of high-purity glass sealed within an opaque tube. Much faster than conventional copper wire such as coaxial cable.
+
+
+field
+
+# Usually the smallest data element in a record; a specified area used for a particular category of data; for example, columns used to represent a particular item of data, such as an employees wage (fixed field). The particular field is always used to record the same kind of information. In free field records, each field has an identifier that is present in the record and linked to the contents of the field.
+
+
+file
+
+# A collection of any form of data that is stored beyond the time of execution of a single job. A file may contain program instructions or data, which may be numerical, textual or graphical information.
+
+
+file format
+
+# The type of file, such as picture or text; represented as a suffix at the end of the filename (text = TXT or .txt, etc.).
+
+
+file server
+
+# A computer designated to store software, courseware, administrative tools, and other data on a local- or wide-area network. It "serves" this information to other computers via the network when users enter their personal access codes.
+
+
+folder
+
+# A place where a user's e-mail messages may be stored. Every user has a folder for new messages, and on most systems may create other folders for specific purposes.
+
+
+font
+
+# A set of consistent size, shape or style of printer characters, including alphabetic and numeric characters and other signs and symbols.
+
+
+foreground
+
+# High-priority processing, usually for realtime activities, automatically given precedence, by means of interrupts, over lower-priority processing.
+
+
+form
+
+# The paper on which output data is printed.
+
+
+form feed
+
+# The feature that automatically advances a roll of paper to the top of the next page or the next form when the printer has finished printing a document or form of one or more pages.
+
+
+format
+
+# The defined structure of information that is recorded on magnetic media, displayed on a visual display device or printed on a page. Used as a verb, it means to put data into a predetermined structure or divide a storage medium, such as a disk into sectors, so that it is ready to receive data.
+
+
+FORTRAN
+
+# FOrmula TRANslation. A high level scientific programming language.
+
+
+fragment
+
+# Partial packet caused by a collision.
+
+
+frame
+
+# A packet sent over a serial link.
+
+
+freeware
+
+# Software that is distributed for free, with no license fee.
+
+
+frequency
+
+# A measurement of the number of electromagnetic waves that pass over a given point in a given period of time.
+
+
+FAQ
+
+# Frequently Asked Questions. A collection of information on the basics of any given subject. Often put together and archived on a server so that people don't waste bandwidth asking simple questions.
+
+
+FTP
+
+# File Transfer Protocol. A program that allows for file transfers over the Internet.
+
+
+FUD
+
+# Fear, Uncertainty and Doubt. "FUD factor"
+
+
+function key
+
+# A keyboard key that gives an instruction to a computer, as opposed to keys that produce letters, numbers, marks of punctuation, etc.
+
+
+garbage
+
+# Unwanted or meaningless information in memory, on disk or on a tape.
+
+
+gateway
+
+# An electronic door between one computer network and another. A device or set of devices that connects two or more networks, enabling data transfer between them. When the networks are similar, a gateway routes packets or messages. When the networks differ, a gateway also performs extensive protocol conversion.
+
+
+GIF
+
+# Graphic Interchange Format. Compuserves non-platform specific format for low-resolution, compressed graphics interchange.
+
+
+gopher
+
+# A client program available via the Internet that allows users to review and retrieve information on other host systems via easy-to-use menus.
+
+
+graphic
+
+# A computer-generated picture produced on a computer screen or paper, ranging from simple line or bar graphs to colorful and detailed images.
+
+
+Groupware
+
+# Software that serves the group and makes the group as a whole more productive and efficient in group tasks. Example: Group Scheduling.
+
+
+GUI
+
+# Graphical User Interface. Defines a format for scroll bars, buttons, menus, etc., and how they respond to the user.
+
+
+handshaking
+
+# A procedure performed by modems, terminals, and computers to verify that communication has been correctly established.
+
+
+hang
+
+# When a computer freezes, so that it does not respond to keyboard commands, it is said to "hang" or to have "hung."
+
+
+hard copy
+
+# A printed copy of machine output in a visually readable form.
+
+
+hard disk
+
+# A data-recording system using solid disks of magnetic material turning at high speeds.
+
+
+hardware
+
+# Physical computer equipment such as electrical, electronic, magnetic and mechanical devices.
+
+
+hardwired
+
+# Circuits that are permanently interconnected to perform a specific function, as distinct from circuits addressed by software in a program and, therefore, capable of performing a variety of functions, albeit more slowly. Also used to describe a non-switched connection between devices.
+
+
+header
+
+# The portion of a message, preceding the actual data, containing source and destination address and error-checking fields.
+
+
+help
+
+# Users in need of help can often issue a command such as "?" to access on-line help and tutorial systems.
+
+
+hierarchical file
+
+# A hierarchical file is one that contains information collected on multiple units of analysis where each unit of analysis is subordinate to another unit. For example, if the physical housing structure is one unit, and individual persons within the structure is another unit, the person records are subordinate (e.g. related to) the housing unit. An example would be the Current Population Survey Annual Demographic File which has household, family, and person units of analysis. Studies that include data for different units of analysis often link those units to each other so that, for instance, one can analyze the persons as they group in a structure. Such studies are sometimes referred to as having a relational structure.
+
+
+hierarchical file structure
+
+# A format for storing hierarchical files . Each unit of analysis has its own record structure or record type . Different units of analysis do not necessarily have the same number of bytes or characters as the records for other units of analysis. In order to give such a file a common physical record length , short logical records are typically "padded" with blanks so that they will all be the same physical record length. A hierarchical file can be also be stored in a rectangular file . For instance, the Survey of Income and Program Participation is distributed both ways; users can choose the format they prefer. Typically, the hierarchical file structure is more space-efficient but more difficult to use.
+
+
+host
+
+# A computer that is made available for use by multiple people simultaneously.
+
+
+host computer
+
+# In the context of networks, a computer that directly provides service to a user. In contrast to a network server, which provides services to a user through an intermediary host computer.
+
+
+HTML
+
+# Hypertext Markup Language. A convention of codes used to access documents over the World-Wide Web. Without HTML codes, a document would be unreadable by a Web browser.
+
+
+HTTP
+
+# HyperText Transfer Protocol. Extremely fast protocol used for network file transfers in the WWW environment.
+
+
+hub
+
+# A device that is a center of network activity because it connects multiple networks together.
+
+
+hyperlink
+
+# A pointer that when chosen displays the item to which it points. It typically takes the form of a button or highlighted text that points to related text, picture, video, or audio. Hyperlinks allow non-linear exploration of media that contain them.
+
+
+hypermedia
+
+# Media (such as text, graphics, video, audio) that contains hyperlinks.
+
+
+hypertext
+
+# A document which has been marked up to allow a user to select words or pictures within the document, click on them, and connect to further information. The basis of the World-Wide Web.
+
+
+icons
+
+# On-screen pictures that symbolize various commands.
+
+
+I/O
+
+# Input/Output. The part of a computer system or the activity that is primarily dedicated to the passing of information into or out of a central processing unit.
+
+
+IEEE
+
+# Institute of Electronic and Electrical Engineers. A leading standards-setting group in the United States.
+
+
+inbox
+
+# The mailbox that holds incoming e-mail.
+
+
+index
+
+# A list of the messages contained in a conference or a mail folder. Indexes generally show the date of the message, its title (or subject), the name of the user who wrote it, and an indication (with a "*" marker) of whether you have read that message.
+
+
+information hiding
+
+# A technique by which the structure and precise usage of information and data is concealed. The information is private to its owning objects and accessible to all other objects only by sending a message to the owner. This is the basis of encapsulation.
+
+
+information server
+
+# A computer on the Internet which acts as a library of documents and files that users can download.
+
+
+information superhighway
+
+# A term popularized by Vice President Al Gore. According to his vision, it is a high-speed network of computers that will serve thousands of users simultaneously, transmitting E-mail, multimedia files, voice, and video.
+
+
+inheritance
+
+# The ability of hierarchically-arranged objects to acquire attributes and behaviors of objects above them without duplicating the code.
+
+
+input
+
+# As a verb, to enter information, instructions, text, etc. , in a computer system or program. As a noun, the data so entered. Input devices include the keyboard and OCR reader.
+
+
+instance
+
+# A particular occurrence of an object defined by a class. All instances of a class share the behavior implemented and inherited by the class. Each instance has its own private set of the instance variables implemented and inherited by the class.
+
+
+instantiation
+
+# The act of creating an instance of a class.
+
+
+instruction
+
+# A statement to the computer that specifies an operation to be performed and the values and locations of the data to be processed.
+
+
+interactive
+
+# Pertaining to an application in which each entry evokes a response from a system or program, as in an inquiry system, for example, an airline reservation system. An interactive system may also be conversational, implying continuous dialog between the user and the system.
+
+
+INTERNET
+
+# A concatenation of many individual TCP/IP campus, state, regional, and national networks (such as CSUNET, SUPERNET, WESTNET, NSFNET, ARPANET) into one single logical network all sharing a common addressing scheme. The global "network of networks" that connects huge corporations, small businesses, universities, and individuals. Every Internet user can send E-Mail to every other Internet user. Most Internet users can also read and post Netnews messages. In addition, many Internet users have access to more advanced services for information search and retrieval, such as Gopher, FTP, WWW, and WAIS.
+
+
+IP
+
+# Internet Protocol. The Internet standard protocol that provides a common layer over dissimilar networks, used to move packets among host computers and through gateways if necessary.
+
+
+IP Address
+
+# The numeric address of a computer connected to the Internet; also called Internet address.
+
+
+interrupt
+
+# A suspension of a process, such as the execution of a computer program, caused by an event external to the computer and performed in such a way that the process can be resumed. Events of this kind include sensors monitoring laboratory equipment or a user pressing an interrupt key.
+
+
+IRC
+
+# Internet Relay Chat, or just Chat. An on-line group discussion.
+
+
+ISDN
+
+# Integrated Services Digital Network. An international communications standard for a common interface to digital networks that allows the integration of voice and data on a common transport mechanism. Proposed by Bellcore for transmission of data, voice and higher-bandwidth technologies over phone lines.
+
+
+ISO
+
+# International Standards Organization. International standard making body responsible for the OSI network standards and the OSI reference model.
+
+
+job
+
+# A set of data that defines a unit of work for a computer; it usually includes all necessary computer programs, linkages, files and instructions to the operating system.
+
+
+JPEG
+
+# Joint Photographic Experts Group. The ISO proposed standard for compression of digital data, especially 24-bit color images. It is lossy in that it reduces the file size at the expense of image quality. PostScript Level 2 color printers are supposed to be able to receive, decompress and print JPEG compressed images. Uses quantization and Huffman encoding.
+
+
+justify
+
+# In word processing, to print a document with even (straight, non-ragged) right and left margins.
+
+
+Kermit
+
+# A communications protocol that allows you to transfer files between your computer and on-line network systems. Kermit has built-in error correction and can handle binary (non-text) files.
+
+
+key
+
+# An identifier in a database or file. A primary key is a unique identifier. A secondary key is typically not unique. A key may be used to specify data in a query. Example: Tag number to specify a car in a database of automobile registration information.
+
+
+keyboard
+
+# Similar to a typewriter, contains the letters for typing text, and keys that give the computer its commands.
+
+
+kilobyte(K)
+
+# 1,024 bytes, often used to mean 1,000 bytes.
+
+
+LAN
+
+# Local Area Network. A network that usually covers a contiguous and fairly small geographical area.
+
+
+LAN e-mail system
+
+# An e-mail system in which the UA runs on LAN-attached workstations.
+
+
+laserdisc
+
+# Large, metallic-looking records about the size of 33 RPM albums (12 inches in diameter), sometimes called videodiscs. Laserdiscs can store a vast amount of information in text, sound, and images. To play a laserdisc, you need a laserdisc player and either a computer monitor or television set. Laserdiscs come in two formats. CLV (constant linear velocity) is accessed by time and CAV (constant angular velocity) is accessed by frame number.
+
+
+laser printer
+
+# A electrophotographic (xerographic) printer in which a laser is used as the light source.
+
+
+Layer
+
+# A grouping of related tasks involving the transfer of information. Also, a level of the OSI reference model.
+
+
+line
+
+# In communications, a wire connecting a terminal to a computer; also a unit of text.
+
+
+line editor
+
+# An editor where the text is considered to be a series of lines separated by end-of-line markers and in which alterations are made to individual lines or groups of lines through editor commands.
+
+
+line printer
+
+# A computer output device in which an entire line of print is composed and determined within the printer prior to printing. The line is printed as a unit and there is no movement of a print head.
+
+
+link
+
+# A form of markup which designates that data within a document will automatically connect with either nested data or an outside source. Used in the design of hypertext.
+
+
+LISTSERV
+
+# A server that manages named lists of recipients and files and access-controls for them. Accepts commands by interactive message or electronic mail. A note sent to a list name is resent to each recipient in the list. Will send a copy of a file on command.
+
+
+load
+
+# v. To transfer a program held on some external storage medium (such as magnetic tape or disk) into the main memory of the machine in a form suitable for execution.
+
+
+logical record
+
+# All the data for a given unit of analysis . It is distinguished from a physical record because it may take several physical records to store all the data for a given unit of analysis. For instance, in Card Image data, a "card" is a physical record and it usually takes several "cards" to store all the information for a single case or unit of analysis.
+
+
+login or logon
+
+# The opening sequence of keystrokes used via computer screen instructions to connect to a system or begin operations on a computer.
+
+
+login ID
+
+# Same as account name or user ID.
+
+
+logoff
+
+# Leave a network system, usually by typing "bye" or "q" for quit. Sometimes called "logout."
+
+
+Longitudinal Study
+
+# In survey research, a study in which the same group of individuals is interviewed at intervals over a period of time. See also: panel study . Note that some cross sectional studies are done regularly (for instance, the General Social Survey and the Current Population Survey (Annual Demographic File) are conducted once a year), but different individuals are surveyed each time. Such a study is not a true longitudinal study.
+
+
+LPR
+
+# Line Printer Remote. A protocol that allows one system to send a file to another system to be queued to a device to which the receiving system has access.
+
+
+lynx
+
+# A text-based World-Wide Web browser. Because it does not employ a graphics capability, it allows slower computers (or computers using a modem) to access the Internet with ease.
+
+
+machine language
+
+# A programming language or instruction code that is immediately interpretable by the hardware of the machine concerned.
+
+
+macro
+
+# A single computer instruction that stands for a given sequence of instructions.
+
+
+magnetic disk
+
+# A flat circular plate with a magnetizable surface layer used for storage of data.
+
+
+magnetic tape
+
+# A tape with a magnetizable surface layer on which data can be stored by magnetic recording.
+
+
+MAIL
+
+# A RiceMail UA that can send mail and operate on incoming messages.
+
+
+mailbox
+
+# A file of e-mail messages on which a UA can operate as if they were incoming messages (read, reply, forward, delete, etc). Compare with inbox.
+
+
+MAILER
+
+# A BITNET MTA for VM/CMS that natively supports domain names and routing through gateways. It is supplied without charge to BITNET members by Princeton University.
+
+
+main memory
+
+# Usually the fastest storage device of a computer and the one from which instructions are executed.
+
+
+mainframe
+
+# The cabinet that houses the central processing unit and main memory of a computer system, separate from peripheral devices such as card readers, printers, disk drives, etc. and device controllers. The term has come to be applied to the computer itself in the case of large systems. A large computer system; the IBM ES9000.
+
+
+mainframe
+minicomputer
+micro-computer
+
+# Three sizes of computers. Big corporations use mainframes and large school systems might use a mid-range computer, sometimes called a minicomputer, as a file server and administrative tool. The correct term for microcomputer is personal computer or PC.
+
+
+MB
+
+# Megabytes. 1,048,576 bytes, often used to mean one million bytes (1,000,000) bytes.
+
+
+medium
+
+# The material used to support the transmission of data. This can be copper wire, coaxial cable, optical fiber, or electromagnetic wave as in microwave.
+
+
+memory
+
+# A device or medium that serves for temporary storage of programs and data during program execution. The term is synonymous with storage, although it is most frequently used for referring to the internal storage of a computer that can be directly addressed by operating instructions. Your computer's temporary storage capacity, measured in kilobytes (KB) or megabytes (MB) of RAM (random-access memory). Long-term data storage on discs, is also measured in kilobytes or megabytes.
+
+
+menu
+
+# A displayed list of options from which a choice can be made. The list is often displayed with a code opposite each option; the selection may be made by typing the appropriate code.
+
+
+message
+
+# E-Mail: The unit of information transferred by an e-mail system. It consists of an envelope that identifies the recipients to an MTA; headers containing who the message is from, to, subject, relaying information, etc; and a body that contains the information the sender wishes to communicate.
+
+
+method
+
+# A procedure whose code implements the behavior invoked by sending a message.
+
+
+methodology
+
+# A methodology is a collection of methods and tools, designed and arranged so as to provide guidance in achieving a specific objective.
+
+
+microcomputer
+
+# A computer system in which the central processing unit is built as a single tiny semiconductor chip or as a small number of chips.
+
+
+microprocessor
+
+# Main computer chip that provides speed and capabilities of the computer. Also called CPU.
+
+
+Microwave
+
+# Bandwidth ranging above one gigahertz, used for high-speed data transmission.
+
+
+mission
+
+# Purpose; what you are in business to do.
+
+
+modem
+
+# Short for MOdulation/DEModulation, it is a device that can convert a digital bit stream into an analog signal (modulation) and can convert incoming analog signals back into digital signals (demodulation). The analog communications channel is typically a telephone line and the analog signals are typically sounds.
+
+
+modem setup
+
+# Modem speed or baud rate, parity, data bits, stop bits, and duplex must be set the same at the user's computer as at the network system. Communication software is used to set up the modem.
+
+
+module
+
+# A logically self-contained and discrete part of a larger computer program.
+
+
+monitor
+
+# A television-like screen that shows text, graphics, and other functions performed by the computer.
+
+
+Mosaic
+
+# An Internet-based, global hypermedia browser that provides a unified interface to the various protocols, data formats, and information archives (i.e. gopher) used on the Internet and enables powerful new ways for discovering, using, viewing, and sharing information. It was developed by NCSA as part of the WWW project.
+
+
+mouse
+
+# A device that is moved by hand to move a pointer to indicate a precise position on a display screen. The device has one or more buttons on top and a cable connected to a computer; it may use wheels and be friction-driven or it may use light reflected from a special pad.
+
+
+multimedia
+
+# A single work assembled using elements from more than one medium, such as high-resolution color images, sounds, video, and text that contains characters in multiple fonts and styles.
+
+
+multimedia mail
+
+# Provides the capability to compose, send and read messages that include things such as spreadsheets, line drawings, animated graphics, high-resolution color images, digitized speech, video, and WYSIWYG text that may contain characters in multiple fonts and styles, etc.
+
+
+multiplexer
+
+# A device that merges information from multiple input channels to a single output channel.
+
+
+multiuser
+
+# The capability of some computer systems to provide access to many simultaneous users.
+
+
+nesting
+
+# Placing documents within other documents. Nesting allows a user to access material in a non-linear fashion - this is the primary factor needed for developing hypertext.
+
+
+NetScape
+
+# One of the most recent developments in browsing technology, it is considered to be faster than the original Mosaic. Oddly enough, it has been designed by the Mosaic Corporation, made up of programmers that authored Mosaic in the first place.
+
+
+Network Layer
+
+# The third layer of the OSI reference model. It controls underlying telecommunications functions such as routing, relaying, and data link connections.
+
+
+network
+
+# A collection of two or more computers interconnected by telephone lines, coaxial cables, satellite links, radio, and/or some other communication technique. A computer "network" is a group of computers which are connected together and which communicate with one another for a common purpose. Computer networks support "people and organization" networks, users who also share a common purpose for communicating.
+
+
+nickname
+
+# A name that can be used in place of an e-mail address. Same as alias.
+
+
+node
+
+# A member of a network or a point where one or more functional units interconnect transmission lines. A VAX is a node on a DECnet.
+
+
+noise
+
+# Undesirable signals bearing no desired information and frequently capable of introducing errors into the communication process.
+
+
+object
+
+# An entity consisting of attributes (such as color and size) stored as data and behaviors or functions (such as draw and move) that manipulate the attribute data. It is capable of interacting with other objects. As defined by OMG: encapsulation of the attributes, relationships, and methods of software-identifiable program components. Complete and reusable pieces of data or applications. Essentially packets of program code wrapped with data that behave like things in the real world.
+
+
+object-based
+
+# Supports the concept of the object and the use of messages to communicate between the objects.
+
+
+object code
+
+# Output from a compiler or assembler that is itself executable machine code or is suitable for processing to produce executable machine code.
+
+
+object-oriented
+
+# Supports the concepts of objects, encapsulation, message passing, dynamic binding and inheritance.
+
+
+object-oriented technology
+
+# A collection of languages, tools, environments and methodologies aimed at supporting development of software applications centered around interrelated, interacting objects.
+
+
+OLE
+
+# Object Linking and Embedding. A Microsoft approach that allows data from one OLE application to be placed in any document of another OLE application in such a way that you can edit the object using the first application's capabilities without leaving the second application. With OLE2.0 you can move data using drag and drop within and between documents and applications. OLE automation provides a cross-platform infrastructure that allows one application to control another.
+
+
+off-line
+
+# Not connected to a network. You can save money on pay-for-use networks by preparing your messages off-line using your word-processing software, and uploading them instead of typing them in while you're connected to (or on-line with) the network.
+
+
+on-line
+
+# Active and prepared for operation. Also suggests access to a computer network. Connected to a network or via a network. Examples: Send me a message on-line. In other words, send me an e-mail message.
+
+
+Online Service
+
+# Commercial online services like America Online, CompuServe, and Prodigy enable their users to send and receive Internet E-Mail, although they don't yet offer access to most other Internet services.
+
+
+open
+
+# Under open systems, unencumbered specifications are freely available, independent branding and certification processes exist, multiple implementations of a single product may be created and competition is enhanced.
+
+
+open platform
+
+# A national Internetnetwork that would allow citizens the ability to access, create, and publish information.
+
+
+open system
+
+# A system that implements sufficiently open specifications for interfaces, services and supporting formats to enable properly-engineered applications software to be ported with minimal changes across a wide range of systems, to interoperate with other applications on local and remote systems, and to interact with users in a style that facilitates user portability.
+
+
+OSI
+
+# Open Systems Interconnect. An international standard suite of protocols defined by International Standards Organization, that implements the OSI reference model for network communications between computers.
+
+
+OpenWindows
+
+# A windowing environment from Sun Microsystems based on X-windows and NeWS.
+
+
+operating system
+
+# software that controls the basic, low-level hardware operations, and file management. It is provides the link between the user and the hardware. Popular operating systems include: DOS, MacOS, VMS, VM, MVS, UNIX, and OS/2. (Note that "Windows 3.x" is not an operating system as such, since in must have DOS to work. )
+
+
+output
+
+# Information retrieved from a computer, displayed by a computer or produced by a program running on a computer.
+
+
+packet
+
+# Basic component of communication over a network. A group of bits of fixed maximum size and well-defined format that is switched and transmitted as a complete whole through a network. It contains source and destination address, data and control information. See also frame.
+
+
+parameter
+
+# A variable, or quantity that can assume any of a given set of values, of which there are two kinds: formal and actual. (See argument.)
+
+
+parity
+
+# Data has even or odd parity if the number of 1 bits is even or odd. A parity bit is a bit added to data to make the parity always even or odd. A parity bit may be used for detection of errors in RAM as well as in data transmitted through noisy communications channels. A parity error is detected when data that is supposed to be even parity is not, or vice versa.
+
+
+password
+
+# A string of characters that a program, computer operator, or user must supply to meet security requirements before gaining access.
+
+
+peripheral
+
+# Anything extra or added on for your computer, such as a modem, a mouse, or a fax adapter. Peripherals can be added on externally or installed inside the machine.
+
+
+PC
+
+# Personal Computer. An IBM or IBM clone personal computer (Microcomputer) that is used by one person, as opposed to a Macintosh.
+
+
+Physical Layer
+
+# The first layer of the OSI reference model. It governs hardware connections and byte-stream encoding for transmission.
+
+
+ping
+
+# Packet Internet Groper. Probably originally contrived to match the submariners term for a sonar pulse.
+# n. Slang term for a small network message (ICMP ECHO) sent by a computer to check for the presence and aliveness of another.
+# v. To verify the presence of. To get the attention of.
+
+
+pixel
+
+# Picture Element. In computer graphics, the smallest element of a display space that can be independently assigned color or intensity.
+
+
+platform
+
+# Hardware environment that supports the running of a computer system.
+
+
+plotter
+
+# An output device for translating information from a computer into pictorial or graphical form on paper or a similar medium.
+
+
+polymorphism
+
+# A technique for generalizing a single behavior across many kinds of objects. It simplifies software design, since a programmer need only specify an action or behavior (such as draw) and elaborate on how it is implemented (for example, line or ellipse).
+
+
+port
+
+# That portion of a computer through which a peripheral device may communicate. Often identified with the various plug-in jacks on the back of your computer. On a network hub, it is the connector that receives the wire link from a node.
+
+
+portable
+
+# In computer usage, a file or program is "portable" if it can be used by a variety of software on a variety of hardware platforms. Numeric data files written as plain character format files are fairly portable.
+
+
+post
+
+# The act of placing a message in an on-line conference. The noun "posting" is sometimes used to refer to a conference message.
+
+
+PostScript
+
+# A language defined by Adobe Systems, Inc. for describing how to create an image on a page. The description is independent of the resolution of the device that will actually create the image. It includes a technology for defining the shape of a font and creating a raster image at many different resolutions and sizes.
+
+
+Power PC
+
+# A RISC CPU chip designed by IBM and Apple and manufactured by Motorola. It features a 32/64 bit implementation and full binary compatibility with the IBM RS/6000. Four models are planned: 601, 603, 604,and 620. The 601 borrows its basic architecture from the Model 200 RS/6000. It adopts the internal bus structure of the Motorola 88100 and the construction plans from the 0.5 micron chip fabrication techniques used by the Model 970 RS/6000. The 603 is an entry-level device targeted toward embedded applications and low power consumption uses such as notebooks and low-end workstations. The 604 is a second-generation version of the 601.
+
+
+Presentation layer
+
+# The sixth layer of the OSI reference model. It lets an application interpret the data being transferred.
+
+
+printer
+
+# An output device that converts the coded information from the processor into a readable form on paper.
+
+
+printout
+
+# The printed output of a computer.
+
+
+procedure
+
+# A portion of a high-level language program that performs a specific task.
+
+
+process
+
+# A systematic sequence of operations to produce a specified result; a unique, finite course of events defined by its purpose or by its effect and achieved under given conditions. As a verb, to perform operations on data in a process. Also an address space and the code executing in it.
+
+
+program
+
+# A set of actions or instructions that a machine is capable of interpreting and executing. Used as a verb, to design, write and test such instructions.
+
+
+programmer
+
+# A person who designs, write and tests computer programs.
+
+
+programming
+
+# A notation for the precise description of computer programs or algorithms. Programming language languages are artificial languages in which the syntax and semantics are strictly defined.
+
+
+prompt
+
+# A character or message provided by an operating system or program to indicate that it is ready to accept input.
+
+
+protocol
+
+# An agreement that governs the procedures used to exchange information between cooperating entities and usually includes how much information is to be sent, how often it is sent, how to recover from transmission errors and who is to receive the information.
+
+
+public domain
+
+# Not protected by copyright; you may freely make copies and distribute them; you may make derivative works.
+
+
+quality
+
+# It is meeting your own specifications and meeting your customers expectations. It is also concerned with doing the right things and doing things right.
+
+
+query
+
+# A request that specifies the manner in which data is to be extracted from one or more databases.
+
+
+queue
+
+# A sequence of stored computer data or programs awaiting processing that are processed in the order first-in first-out (FIFO).
+
+
+quit
+
+# Ends the work without writing out a new file or new version of the exiting work file unless there is a save that interrupts before dumping the session.
+
+
+RAID
+
+# Redundant Array of Inexpensive Disks. A way of creating a fault-tolerant storage system. There are 6 levels. Level 0 uses byte-level striping. Level 1 uses mirroring. Level 2 uses bit-level striping. Level 3 stores error correcting information (such as parity) on a separate disk, and uses data striping on the remaining drives. Level 4 is level 3 with block level striping. Level 5 uses block level and parity data striping.
+
+
+RAM
+
+# Random Access Memory. Memory in which each element can be individually addressed and accessed with the same speed as any other element of the memory. The main memory of a computer is usually RAM. One of the earliest forms of RAM was called core, because it consisted of directly addressed doughnuts or cores of ferromagnetic material each of which represented one bit. A faster more recent form of RAM is called Dynamic RAM.
+
+
+random access
+
+# Differs from direct access by the fact that each element can be accessed with the same ease and speed as any other.
+
+
+Re-engineering
+
+# The circular process of going from code to models then back to code that might be in a different language, use a different DBMS or be more structured.
+
+
+read
+
+# To sense and retrieve or interpret data from a form of storage or input medium.
+
+
+read/write
+
+# A magnetic mechanism that can read, write and erase data encoded as polarized patterns on magnetic disk or tape.
+
+
+realtime
+
+# The processing of transactions as they occur rather than batching them. Pertaining to an application in which response to input is fast enough to affect subsequent inputs and guide the process and in which records are updated immediately. The lag from input time to output time must be sufficiently small for acceptable timeliness. Timeliness is a function of the total system: missile guidance requires output within a few milliseconds of input, scheduling of steamships requires response time in days. Realtime systems are those with response time of milliseconds, interactive system in seconds and batch system in hours or days.
+
+
+record
+
+# A collection of related data or words, treated as a unit. For example, in stock control, each invoice could constitute one record.
+
+
+record length
+
+# Depending on the context, the length in bytes (i.e., columns) of a physical record or a logical record . On ICPSR Tape Information Forms and on CDNet, the abbreviation "RecLen" is used for physical record length.
+
+
+record type
+
+# A record that has a consistent logical structure. In files that include different units of analysis, for instance, different record types are needed to hold the different variables. For example, one record type might have a variable for income in one column and another record type might have a variable for household size in that same column. The codebook will describe these different structures and how to determine which is which so that you can tell your statistical software how to interpret that particular column as income or household size.
+
+
+recovery
+
+# The process by which data bases are rebuilt after a system fails.
+
+
+rectangular file
+
+# A physical file structure. A rectangular file is one which contains the same number of card-images or the same physical record length for each respondent or unit of analysis . A Hierarchical file can be stored in a rectangular file structure by storing all units of analysis in a single physical record . For instance, each record might contain one household unit, two family units, and four person units for each family unit. This method of storage of hierarchical files can be very inefficient in terms of storage space, but can make the file easier to describe and work with.
+
+
+reel tape
+
+# One-half inch magnetic tape stored on round reels. Also called Round Tape.
+
+
+relational database
+
+# An organization of data into tables with each column containing the values of a data element and each row representing a record.
+
+
+relational structure
+
+# A study that includes different units of analysis, particularly when those units are not arranged in a strict hierarchy as they are in a hierarchical file, has a relational structure. Note that the data could be arranged in several different physical structures to handle such a data structure. For instance, each unit of analysis might be stored in a separate rectangular file with identification numbers linking each case to the other units; or, the different units of analysis might be stored in one large file with a hierarchical file structure; or the different units could be stored in a special database structure used by a relational data base management system such as INGRES. An example of a study with a relational structure is the Survey of Income and Program Participation which has eight or more record types; these record types are related to each other but are not all members of a hierarchy of membership. For instance, there are record types for household, family, person, wage and salary job, and general income amounts.
+
+
+remote
+
+# Equipment or site that is located out of the way or at a distance from primary equipment or a larger or primary site. Sometimes used as the opposite of local.
+
+
+remote access
+
+# The ability to access a computer from outside a building in which it is housed. Remote access requires communications hardware, software, and actual physical links, although this can be as simple as common carrier (telephone) lines or as complex as TELNET login to another computer across the Internet.
+
+
+resource
+
+# An on-line information set or an on-line interactive option. An on-line library catalog or the local school lunch menu are examples of information sets. On-line menus or graphical user interfaces, Internet e-mail, on-line conferences, telnet, FTP, and Gopher are examples of interactive options.
+
+
+response
+
+# A message placed in a conference as a follow-up to a topic or to another response; or, a reply to an e-mail message.
+
+
+retiming
+
+# A function of a repeater or Ethernet hub that receives a signal, cleans and regenerates it, and then sends it.
+
+
+return key
+
+# The key on a terminal keyboard that, when struck, places the cursor at the left margin one line below its previous horizontal position.
+
+
+reuse and reuseability
+
+# An approach to software engineering that emphasizes reusing software assets, including designs and code, and building software assets likely to be reuseable in future applications.
+
+
+reverse engineering
+
+# The process of going from the more concrete level of code to the more abstract level of models for data and processes.
+
+
+ROM
+
+# Read-only memory. Information is stored once, usually by the manufacturer, that cannot be changed. Most compact discs are ROM.
+
+
+root directory
+
+# The directory that contains all other directories.
+
+
+router
+
+# A device connecting separate networks that forwards a packet from one network to another based only on the network address for the protocol being used. For example, an IP router looks only at the IP network number.
+
+
+routine
+
+# Part of a computer program, or a sequence of instructions called by a program, that may have some general or frequent use.
+
+
+routing
+
+# The process of finding a path over which a packet can travel to reach its destination.
+
+
+run
+
+# The single, continuous execution of a program by a computer on a given set of data. As a verb, to initiate processing by a program.
+
+
+scanner
+
+# A device that senses alterations of light and dark.
+
+
+scheduling
+
+# An automated capability to schedule meetings and/or resources (such as meeting rooms, projectors, etc.) by looking at online calendars.
+
+
+screen
+
+# The surface of a monitor on which information can be viewed.
+
+
+screen editor
+
+# A program that allows a file to be edited by making changes to the text displayed on the screen. It may also support commands to make changes to the whole file at once. Changes to the portion displayed on the screen are immediately shown.
+
+
+scroll
+
+# To move all or part of the display image vertically or horizontally to view data otherwise excluded. Scrolling can be performed with a mouse in the horizontal/vertical bars on each window or by using the page up/down - home/end - or arrow keys.
+
+
+segment
+
+# A section of network wiring. Segments are connected by repeaters, bridges or routers.
+
+
+sequential
+
+# A method of storing and retrieving information that requires data to be written and read sequentially. Accessing any portion of the data requires reading all the preceding data.
+
+
+server
+
+# A computer that shares its resources, such as printers and files, with other computers on the network. An example of this is a Network Files System Server which shares its disk space with a workstation that does not have a disk drive of its own.
+
+
+service (or service provider)
+
+# An organization that provides access to part of the Internet. You have to arrange for an account with a service to connect your computer to the Internet.
+
+
+session
+
+# Networking term used to refer to the logical stream of data flowing between two programs and being communicated over a network. There may be many different sessions emanating from any one node on a network.
+
+
+Session Layer
+
+# The fifth layer of the OSI reference model, it provides the means for two session service users to organize and synchronize their dialogs and manage data exchange.
+
+
+shareware
+
+# Protected by copyright; holder allows you to make and distribute copies under the condition that those who adopt the software after preview pay a fee to the holder of the copyright; derivative works are not allowed; you may make an archival copy.
+
+
+shell
+
+# A term that usually refers to the user interface of an operating system. A shell is the command processor that is the actual interface between the kernel and the user. The C shell or the Bourne shell are the primary user interfaces on UNIX systems. Contrasts with the kernel, which interacts with the computer at low levels.
+
+
+simulation
+
+# An imitation of the behavior of some existing or intended system, or some aspect of that behavior. Examples of areas where simulation is used include communications network design, weather forecasting and training. Physical systems can also be simulated, for example, chemical or nuclear reactions.
+
+
+smiley
+
+# Character combinations such as :-) to denote whether a message is being made in jest with various modifications thereof ;-) to wink, etc. Also called emoticons, since not all are smiling %-( .
+
+
+soft copy
+
+# An electronic version of a file, usually in computer memory and/or on disk; as opposed to hard copy, the paper printout.
+
+
+software
+
+# Computer programs that perform various tasks. Word processing programs (like WordPerfect or Microsoft Word), spreadsheet programs (like Lotus or Excel), or database programs (like dBase III+, Foxbase, or FileMaker) are all software.
+
+
+software tool
+
+# A program that is employed in the development, repair or enhancement of other programs. Tools include editors, compilers and linkers. Also refers to utilities, such as formatters and file utilities.
+
+
+sort
+
+# To arrange a set of items in sequence according to keys; for example, to arrange the records of a personnel file into alphabetical order by using the employee names as sort keys.
+
+
+source code
+
+# The program in a language prepared by the programmer. This code cannot be directly executed by the computer and must first be translated into object code.
+
+
+SPARC
+
+# Scalable Processor ARChitecture. Trademark of SunMicrosystems 32-bit RISC microprocessor architecture. The architecture is open in the sense that other vendors can obtain the processor chips and documentation sufficient to build computers using it.
+
+
+SPARCstation
+
+# A workstation (usually a Sun Microsystems brand) based on the SPARC chip.
+
+
+sponge
+
+# A job that runs in the background on the IBM 3090 mainframe computer in such a way that it uses only those CPU cycles not needed by other work, yet is so computationally intense that it soaks up all unused CPU cycles.
+
+
+spool
+
+# Simultaneous Peripheral Operations On-Line. A scheme that allows multiple devices to simultaneously write output to the same device such as multiple computers printing to the same printer at the same time. The data are actually written to temporary files while a program called a spooler sends the files to the device one at a time.
+
+
+spreadsheet
+
+# Software program that allows mathematical calculations, such as budgeting, keeping track of investments, or tracking grades.
+
+
+SQL
+
+# Structured Query Language. ANSI standard data manipulation language used in most relational data base systems. A language for requesting data from a relational database.
+
+
+storage
+
+# A device or medium that can retain data for subsequent retrieval.
+
+
+strategy
+
+# long-term plan, tactic, or scheme for attaining a vision.
+
+
+string
+
+# A sequence of characters.
+
+
+striping
+
+# Disk striping copies blocks, bytes or bits across multiple disks in such a way that if one disk is lost, the data can be created using the blocks or bits on the remaining disks.
+
+
+Sun Microsystems
+
+# Sun originally stood for Stanford University Network, a name given to a printed circuit board developed in 1981 that was designed to run UNIX.
+
+
+SunOS
+
+# The name of the operating system of the workstation from Sun Microsystems. It is based on Berkeley UNIX and AT&Ts System V UNIX. It is composed of three major parts: the kernel and file system, shells and graphical interfaces, and utility programs.
+
+
+surfing
+
+# Netspeak for wandering, whether one is surfing through cable stations or surfing the Internet.
+
+
+tape density
+
+# A measure of how much data, can fit on a magnetic tape.
+
+
+task
+
+# A separately dispatchable function on a computer.
+
+
+TCP/IP
+
+# Transmission Control Protocol/INTERNET Protocol. The communication protocols on which the Internet is based.
+
+
+TEAM
+
+# Together Everyone Accomplishes More
+
+
+telecommunication
+
+# Communicating with other people through the computer using communication software and modems.
+
+
+telecomputing
+
+# Using computers for telecommunication; computer networking.
+
+
+TELNET
+
+# A program that allows users on the Internet to log in to remote systems from their own host system.
+
+
+terminal
+
+# A device connected to a computer network that acts as a point for entry or retrieval of information. Personal computers can be made to act as network terminals, by running terminal emulation (communication) programs.
+
+
+terminal emulation
+
+# Most communications software packages will permit a personal computer or workstation to communicate with another computer or network as if it were a specific type of hardware terminal.
+
+
+terminal server
+
+# A device that allows asynchronous devices such as terminals to select and then communicate with hosts or other devices over a network.
+
+
+terabyte
+
+# 1,099,551,627,776 bytes, often used to mean one trillion bytes (1,000,000,000,000).
+
+
+text
+
+# A string of characters. A text file should contain only characters - as opposed to codes or commands.
+
+
+time out
+
+# What happens when two computers are talking and one fails to respond within a certain time, for whatever reason.
+
+
+time series.
+
+# Observations of a variable made over time. Many economic studies such as International Financial Statistics, and Citibase are time series datafiles. Time series, of a sort, can also be constructed from a cross sectional study if the same questions are asked more than once over time.
+
+
+TN3270
+
+# A version of TELNET providing IBM full-screen support.
+
+
+toggle
+
+# Using one command or keystroke to change between one mode and its opposite.
+
+
+token ring
+
+# A LAN and protocol in which nodes are connected together in a ring and communication is controlled by a special packet called a token that is passed from node to node around the ring. A node can send data only when it receives the token and the token is not in use. Data is sent by attaching it to the token. The receiving node removes the data from the token.
+
+
+topic
+
+# In a conference, a message which is generally written to convey a new idea or a new piece of information, relevant to that conference.
+
+
+transfer
+
+# To copy or move information from one computer to another.
+
+
+Transport Layer
+
+# The fourth layer of the OSI reference model. It provides transparent, reliable and cost-effective transfer of data.
+
+
+tree
+
+# A way of organizing information with general categories at the top, subcategories below, and narrower subcategories on a further level.
+
+
+UNIX
+
+# A popular computer software operating system used on many Internet host systems.
+
+
+upload
+
+# To transfer information from a users system to a remote system. Opposite of download.
+
+
+URL
+
+# Uniform Resource Locater. A scheme used to locate a document accessible over the Internet.
+
+
+Usenet
+
+# The network of UNIX users, generally perceived as informal and made up of loosely coupled nodes that exchange mail and messages. Started by Duke University and UNC-Chapel Hill. An information cooperative linking around 16,000 computer sites and about 1 million people. Usenet provides a series of "news groups" analogous to on-line conferences.
+
+
+user
+
+# Anyone who uses a computer connected to the Internet.
+
+
+user-friendly
+
+# A system or program that relatively untrained users can interact with easily.
+
+
+userid
+
+# A code that uniquely identifies a user and then provides access privileges to a computer system.
+
+
+username
+
+# Account name or user ID.
+
+
+utility
+
+# A specialized program that performs a frequently required everyday task such as sorting, report program generation, or file updating.
+
+
+variable
+
+# In social science research, for each unit of analysis , each item of data (e.g., age of person, income of family, consumer price index) is called a variable.
+
+
+vision
+
+# A future-oriented statement of where you want to be, of what you want things to be like.
+
+
+virtual
+
+# Pertaining to a device or facility that does not physically exist, yet behaves as if it does. For example, a system with 4 megabytes of virtual memory may have only one megabyte of physical memory plus additional (slower and cheaper) auxiliary memory. Yet programs written as if 4 megabytes of physical memory were available will run correctly.
+
+
+virtual terminal
+
+# A program that makes a general purpose computer behave like a terminal.
+
+
+VMS
+
+# Virtual Memory System. An operating system for the VAX and Alpha computers of Digital Equipment Corporation.
+
+
+virus
+
+# A program that can make a copy of itself without you necessarily being aware of it; some viruses can destroy or damage files, and generally the best protection is to always maintain backups of your files
+
+
+volume
+
+# A physical unit of a storage medium, such as tape reel or disk pack, that is capable of having data recorded on it and subsequently read. Also refers to a contiguous collection of cylinders or blocks on a disk that are treated as a separate unit.
+
+
+wavelength
+
+# The length of one complete electromagnetic wave, measured usually from crest to crest or trough to trough of successive vibrations.
+
+
+whois
+
+# The name of the nickname database that contains full name, postal address, telephone number, and network mailbox for registered users. Also the name of the local command to access this database, and the name of the protocol used by this command (RFC-954) that is now an elective draft standard.
+
+
+window
+
+# A rectangular area on a display screen in which part of an image or file is displayed. The window can be any size up to that of the screen and more than one window can be displayed at once.
+
+
+Windows
+
+# A trademark of Microsoft Corporation for a software product that provides an environment for a graphical user interface for DOS and DOS applications.
+
+
+word processor
+
+# A program used to enter or edit text information in personal computers, often used to create a file before it is uploaded to a network; may also be used to process text after it has been downloaded.
+
+
+wordwrap
+
+# An editor feature that causes a word that will not fit on a line to be moved in its entirety to the next line rather than be split at the right margin.
+
+
+work space
+
+# Disk space made available to the system to provide temporary storage space for files too large to fit within a users permanent disk storage quota or for files not needed beyond a single run of a program or set of programs.
+
+
+workstation
+
+# A general purpose computer that is small enough and inexpensive enough to reside at a persons work area for his or her exclusive use. It includes microcomputers such as Macintosh, and PCs running DOS, as well as high-performance desktop and deskside computers.
+
+
+write
+
+# To record data in a storage device, a data medium, or an output display. To save information, especially files, to a disk, to replace old data with new and permit later access from within a software package; the complement of read.
+
+
+WWW
+
+# World Wide Web. A wide-area hypermedia information retrieval technology that interconnects information around the world. It allows you to travel through the information by clicking on hyperlinks that can point to any document anywhere on the Internet. Originated at CERN and collaborated upon by a large, informal, and international design and development team, WWW allows links inside and between documents, plus pointers to FTP sites, news, telnet sessions, gopher sites, and WAIS databases.
+
+
+X window system
+
+# A standard for controlling the display on a bitmapped terminal. X-windows normally uses a network connection, and unlike the typical terminal connection, multiple applications possibly on different computers can use the display simultaneously in different windows.
+
+
+X-term
+
+# An X-windows client that provides a window for terminal emulation.
