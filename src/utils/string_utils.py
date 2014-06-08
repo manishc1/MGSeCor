@@ -2,6 +2,9 @@
 Basic string functional utilities.
 """
 
+import re
+
+
 def asciify(string):
     """
     Removes non-ascii characters from the string.
@@ -31,14 +34,15 @@ def replace_abbrv(string):
     """
     Replace abbrv like & -> and in the string.
     """
-    return string.replace('&', 'and')
+    return string.replace('&', 'and').replace('/', '-')
 
 
 def depunctuate(string):
     """
     Extract alphanumeric words from the string.
     """
-    return re.findall("[\w',.!?]+", string)
+    words = re.findall("[\w',.!?-]+", string)
+    return ' '.join(words)
 
 
 def dedigit(string):
