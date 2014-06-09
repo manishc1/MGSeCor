@@ -94,12 +94,27 @@ NVD_LAST_YEAR      = 2014
 NVD_YEAR_RSS_URL   = 'http://nvd.nist.gov/download/nvdcve-<YEAR>.xml'
 NVD_RECENT_RSS_URL = 'http://static.nvd.nist.gov/feeds/xml/cve/nvdcve-2.0-recent.xml'
 
-ARXIV_DOMAIN_URL = 'http://arxiv.org'
-ARXIV_RECENT_URL = ARXIV_DOMAIN_URL + '/list/cs.CR/recent'
+
 ARXIV_SEARCH_QUERY_URL = 'http://export.arxiv.org/api/query?search_query=cat:<CATEGORY>&start=<START>&max_results=<MAX>'
 
+
 COMPUTER_HOPE_URL = 'http://www.computerhope.com/jargon/j<PAGE>.htm'
-MANY_THINGS_URL = 'http://www.manythings.org/vocabulary/lists/l/words.php?f=3esl.<PAGE>'
+MANY_THINGS_URL   = 'http://www.manythings.org/vocabulary/lists/l/words.php?f=3esl.<PAGE>'
+
+
+SYMANTEC_DOMAIN   = 'http://www.symantec.com/'
+SYMANTEC_BLOG_URL = {'In_Defense_Of_Data': ('http://www.symantec.com/connect/symantec-blogs/in-defense-of-data?page=', 10),
+					 'Website_Security_Solutions': ('http://www.symantec.com/connect/blogs/website-security-solutions?page=', 65),
+					 'Authentication_(User)_Blog': ('http://www.symantec.com/connect/blogs/authentication-user?page=', 20),
+					 'Encryption_Blog': ('http://www.symantec.com/connect/symantec-blogs/encryption-blog?page=', 15),
+					 'Endpoint_Security_Blog': ('http://www.symantec.com/connect/symantec-blogs/endpoint-security-blog?page=', 5),
+					 'Symantec_Connect_Blog': ('http://www.symantec.com/connect/symantec-blogs/symantec-connect?page=', 14),
+					 'Mail_and_Web_Security_Blog': ('http://www.symantec.com/connect/symantec-blogs/mail-and-web-security-blog?page=', 3),
+					 'Managed_Security_Services_Blog': ('http://www.symantec.com/connect/symantec-blogs/managed-security-services-blog?page=', 3),
+					 'Symantec_Intelligence': ('http://www.symantec.com/connect/symantec-blogs/symantec-intelligence?page=', 17),
+					 'Cyber_Readiness_&_Response': ('http://www.symantec.com/connect/symantec-blogs/cyber-readiness-and-response?page=', 9),
+					 'Security Response Blog': ('http://www.symantec.com/connect/symantec-blogs/sr?page=', 246),
+					 'The_Confident_SMB': ('http://www.symantec.com/connect/symantec-blogs/the-confident-smb?page=', 11)}
 
 
 
