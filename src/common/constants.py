@@ -116,6 +116,8 @@ SYMANTEC_BLOG_URL = {'In_Defense_Of_Data': ('http://www.symantec.com/connect/sym
 					 'Security Response Blog': ('http://www.symantec.com/connect/symantec-blogs/sr?page=', 246),
 					 'The_Confident_SMB': ('http://www.symantec.com/connect/symantec-blogs/the-confident-smb?page=', 11)}
 
+ADOBE_BLOG_URL = {'Security': ('http://blogs.adobe.com/security/page/', 31)}
+
 
 
 # Numeric Constants
