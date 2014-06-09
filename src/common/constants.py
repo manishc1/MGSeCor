@@ -118,6 +118,12 @@ SYMANTEC_BLOG_URL = {'In_Defense_Of_Data': ('http://www.symantec.com/connect/sym
 
 ADOBE_BLOG_URL = {'Security': ('http://blogs.adobe.com/security/page/', 31)}
 
+KREBS_BASE_YEAR = 2009
+KREBS_BASE_MONTH = 12
+KREBS_LAST_YEAR = 2014
+KREBS_LAST_MONTH = 6
+KREBS_BLOG_URL = {'Security': 'http://krebsonsecurity.com/<YEAR>/<MONTH>/feed/'}
+
 
 
 # Numeric Constants
