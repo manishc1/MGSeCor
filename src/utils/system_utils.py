@@ -17,21 +17,30 @@ def download(url, filename):
 	"""
 	Donloads the file at url.
 	"""
-	download_filename = TMP_DIR + '/' + filename
-	urllib.urlretrieve(url, download_filename)
-	return download_filename
+	try:
+		download_filename = TMP_DIR + '/' + filename
+		urllib.urlretrieve(url, download_filename)
+		return download_filename
+	except Exception as e:
+		raise 'Download Error! [' + str(e) + ']'
 
 
 def pdf_to_txt(pdf_filename):
 	"""
 	Converts .pdf to .txt
 	"""
-	os.system('pdftotext %(pdf_filename)s' % locals())
-	return pdf_filename.replace('.pdf', '.txt')
+	try:
+		os.system('pdftotext %(pdf_filename)s' % locals())
+		return pdf_filename.replace('.pdf', '.txt')
+	except Exception as e:
+		raise 'Conversion Error! [' + str(e) + ']'
 
 
 def remove(filename):
 	"""
 	Deletes the file.
 	"""	
-	os.system('rm %(filename)s' % locals())
+	try:
+		os.system('rm %(filename)s' % locals())
+	except Exception as e:
+		raise 'Delete Error! [' + str(e) + ']'
