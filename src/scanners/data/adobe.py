@@ -72,7 +72,7 @@ class Adobe_Blog_Scanner(object):
 
 							entry_title = content_div.find('h2', {'class': 'entry-title'})
 							if (entry_title is None):
-								entry_title = ''
+								entry_title = 'Adobe_' + entry_date
 							else:
 								entry_title = entry_title.text.strip()
 
@@ -95,7 +95,7 @@ class Adobe_Blog_Scanner(object):
 								print 'Scanned ' + str(self.count) + ' files from ' + blog
 
 					except Exception as e:
-						print 'Read more url error in <' + read_more_url + '> [' + str(e) + ']'
+						print 'Read more url error in <' + title_url + '> [' + str(e) + ']'
 
 					page = page + 1
 
