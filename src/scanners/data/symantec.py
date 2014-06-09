@@ -86,10 +86,10 @@ class Symantec_Blog_Scanner(object):
 							for para in paras:
 								entry_desc = entry_desc + para.text.strip()
 
-							xml_string = bundle_xml(entry_src, entry_type, entry_id, entry_title, entry_date, entry_desc)
+							xml_string = bundle_xml(entry_src, entry_type, entry_id, entry_title, entry_date, asciify(entry_desc))
 			
-							write_string(self.corpus_dir + '/' + asciify(entry_type).replace(' ', '_') + '/' + asciify(entry_title).replace(' ', '_') + '.xml', xml_string, True)
-							write_string(self.raw_dir + '/' + asciify(entry_type).replace(' ', '_') + '/' + asciify(entry_title).replace(' ', '_') + '.txt', entry_desc, True)
+							write_string(self.corpus_dir + '/' + asciify(entry_type).lower().replace(' ', '_') + '/' + asciify(entry_title).replace(' ', '_') + '.xml', xml_string, False)
+							write_string(self.raw_dir + '/' + asciify(entry_type).lower().replace(' ', '_') + '/' + asciify(entry_title).replace(' ', '_') + '.txt', entry_desc, True)
 
 							self.count = self.count + 1
 							if (self.count % 100 == 0):
