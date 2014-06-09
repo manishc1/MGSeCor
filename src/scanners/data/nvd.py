@@ -57,7 +57,7 @@ class NVD_Recent_Scanner(object):
 
 			self.count = self.count + 1
 			if (self.count % 1000 == 0):
-				print 'Scanned ' + str(self.count) ' files from recent'
+				print 'Scanned ' + str(self.count) + ' files from recent'
 			break
 		
 

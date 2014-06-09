@@ -55,7 +55,6 @@ POSITIVE_RAW_DATA_DIR = RAW_DATA_DIR + '/positive'
 NEGATIVE_RAW_DATA_DIR = RAW_DATA_DIR + '/negative'
 
 
-
 GLOSSARY_DIR          = HOME_DIR     + '/config'
 
 
