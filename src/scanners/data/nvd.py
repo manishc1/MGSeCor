@@ -58,7 +58,6 @@ class NVD_Recent_Scanner(object):
 			self.count = self.count + 1
 			if (self.count % 1000 == 0):
 				print 'Scanned ' + str(self.count) + ' files from recent'
-			break
 		
 
 class NVD_Yearwise_Scanner(object):
@@ -87,7 +86,6 @@ class NVD_Yearwise_Scanner(object):
 			raw_dir = self.raw_dir.replace('<YEAR>', str(year))
 			self.scan_helper(year, url, corpus_dir, raw_dir)
 			year = year + 1
-			break
 
 
 	def scan_helper(self, year, url, corpus_dir, raw_dir):
@@ -113,15 +111,14 @@ class NVD_Yearwise_Scanner(object):
 			self.count = self.count + 1
 			if (self.count % 1000 == 0):
 				print 'Scanned ' + str(self.count) + ' files from ' + str(year)
-			break
 
 
 def main():
 	"""
 	Main function.
 	"""
-	#nrs = NVD_Recent_Scanner()
-	#nrs.scan()
+	nrs = NVD_Recent_Scanner()
+	nrs.scan()
 	nys = NVD_Yearwise_Scanner()
 	nys.scan()
 
