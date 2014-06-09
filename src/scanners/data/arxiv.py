@@ -54,13 +54,17 @@ class Arxiv_Scanner(object):
 				entry_title = entry.find('title').text.strip()
 				entry_date = entry.find('published').text.strip()
 				entry_pdf_url = entry.find('link', {'title':'pdf'}).get('href').strip() + '.pdf'
-				entry_desc = clean(pdf_url_to_string(entry_pdf_url, entry_id + '.pdf'))
+				print entry_pdf_url
+				try:
+					entry_desc = clean(pdf_url_to_string(entry_pdf_url, entry_id + '.pdf'))
+				except Exception as e:
+					print str(e)
+					continue
 
 				xml_string = bundle_xml(entry_src, entry_type, entry_id, entry_title, entry_date, entry_desc)
 				write_string(self.corpus_dir + '/' + entry_id + '.xml', xml_string, False)
 				write_string(self.raw_dir + '/' + entry_id + '.txt', entry_desc, True)
 
-				exit(-1) # remove
 				self.count = self.count + 1
 				if (self.count % 100 == 0):
 					print 'Scanned ' + str(self.count) + ' files from recent'
