@@ -35,6 +35,7 @@ class Wikipedia_Scanner(object):
 		self.raw_dir = RAW_DATA_DIR + '/' + label + '/wikipedia/' + category
 		self.wiki = WikiApi({})
 		self.visited_results = self.get_results(self.del_phrases)
+		self.count = 0
 
 
 	def get_results(self, phrases):
@@ -73,6 +74,10 @@ class Wikipedia_Scanner(object):
 			
 						write_string(self.corpus_dir + '/' + entry_id + '.xml', xml_string, False)
 						write_string(self.raw_dir + '/' + entry_id + '.txt', entry_desc, True)
+
+						self.count = self.count + 1
+						if (self.count % 100 == 0):
+							print 'Scanned ' + str(self.count) + ' wiki articles.'
 
 			except Exception as e:
 				print 'Wiki Api Error! [' + str(e) + ']'
