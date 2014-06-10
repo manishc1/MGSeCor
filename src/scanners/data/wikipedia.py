@@ -93,8 +93,8 @@ def main(category, label):
 	elif (category == 'computer_science' and label == 'negative'):
 		ws = Wikipedia_Scanner(COMPUTER_SCIENCE_GLOSSARY_LIST, [], category, label)
 		ws.get_articles()
-	elif (category == 'words' and label == 'negative'):
-		ws = Wikipedia_Scanner(WORD_GLOSSARY_LIST, [], category, label)
+	elif (category == 'non_computer_science' and label == 'negative'):
+		ws = Wikipedia_Scanner(NON_COMPUTER_SCIENCE_GLOSSARY_LIST, [], category, label)
 		ws.get_articles()
 	else:
 		print 'Invalid arguments!'

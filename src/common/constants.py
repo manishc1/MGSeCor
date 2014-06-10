@@ -76,14 +76,14 @@ TMP_DIR               = HOME_DIR     + '/tmp'
 
 # File Name Constants
 
-COMPUTER_SCIENCE_GLOSSARY_LIST = [GLOSSARY_DIR + '/computer_science_terms-1.gloss', \
-                                  GLOSSARY_DIR + '/computer_science_terms-2.gloss', \
-                                  GLOSSARY_DIR + '/computer_science_terms-3.gloss', \
-                                  GLOSSARY_DIR + '/computer_science_terms-4.gloss']
-SECURITY_GLOSSARY_LIST         = [GLOSSARY_DIR + '/nist_glossary_of_key_information_security_terms.gloss', \
-                                  GLOSSARY_DIR + '/security_terms.gloss']
-STOPWORDS_GLOSSARY_LIST        = [GLOSSARY_DIR + '/stopwords.gloss']
-WORD_GLOSSARY_LIST             = [GLOSSARY_DIR + '/words.gloss']
+COMPUTER_SCIENCE_GLOSSARY_LIST     = [GLOSSARY_DIR + '/computer_science_terms-1.gloss', \
+                                      GLOSSARY_DIR + '/computer_science_terms-2.gloss', \
+                                      GLOSSARY_DIR + '/computer_science_terms-3.gloss', \
+                                      GLOSSARY_DIR + '/computer_science_terms-4.gloss']
+SECURITY_GLOSSARY_LIST             = [GLOSSARY_DIR + '/nist_glossary_of_key_information_security_terms.gloss', \
+									  GLOSSARY_DIR + '/security_terms.gloss']
+STOPWORDS_GLOSSARY_LIST            = [GLOSSARY_DIR + '/stopwords.gloss']
+NON_COMPUTER_SCIENCE_GLOSSARY_LIST = [GLOSSARY_DIR + '/non_computer_science_terms.gloss']
 
 
 
