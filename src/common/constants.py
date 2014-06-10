@@ -124,6 +124,13 @@ KREBS_LAST_YEAR = 2014
 KREBS_LAST_MONTH = 6
 KREBS_BLOG_URL = {'Security': 'http://krebsonsecurity.com/<YEAR>/<MONTH>/feed/'}
 
+MICROSOFT_BASE_YEAR = 1998
+MICROSOFT_LAST_YEAR = 2014
+MICROSOFT_PAGES = {1998: 20, 1999: 61,
+				   2000: 100, 2001: 60, 2002: 72, 2003: 51, 2004: 45, 2005: 55, 2006: 78, 2007: 69, 2008: 78, 2009: 74, 2010: 106,
+				   2011: 100, 2012: 83, 2013: 106, 2014: 29}
+MICROSOFT_BULLETIN_URL = {'Security_Bulletin': 'https://technet.microsoft.com/en-us/library/security/ms<YEAR>-<PAGE>.aspx'}
+
 
 
 # Numeric Constants
