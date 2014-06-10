@@ -52,7 +52,7 @@ def dedigit(string):
     words = string.split(' ')
     new_words = []
     for word in words:
-        if (word.isdigit()):
+        if (word.isdigit() or (re.search('[a-zA-Z]+', word) is None)):
             continue
         new_words.append(word)
     return ' '.join(new_words)
