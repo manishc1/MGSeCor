@@ -70,14 +70,15 @@ class Wikipedia_Scanner(object):
 						entry_date = datetime.now().strftime('%Y-%m-%d_%H-%M-%S-%f')
 						entry_desc = clean(article.summary)
 
-						xml_string = bundle_xml(entry_src, entry_type, entry_id, entry_title, entry_date, entry_desc)
+						if (entry_desc != ''):
+							xml_string = bundle_xml(entry_src, entry_type, entry_id, entry_title, entry_date, entry_desc)
 			
-						write_string(self.corpus_dir + '/' + entry_id + '.xml', xml_string, False)
-						write_string(self.raw_dir + '/' + entry_id + '.txt', entry_desc, True)
-
-						self.count = self.count + 1
-						if (self.count % 100 == 0):
-							print 'Scanned ' + str(self.count) + ' wiki articles.'
+							write_string(self.corpus_dir + '/' + entry_id + '.xml', xml_string, False)
+							write_string(self.raw_dir + '/' + entry_id + '.txt', entry_desc, True)
+						
+							self.count = self.count + 1
+							if (self.count % 100 == 0):
+								print 'Scanned ' + str(self.count) + ' wiki articles.'
 
 			except Exception as e:
 				print 'Wiki Api Error! [' + str(e) + ']'

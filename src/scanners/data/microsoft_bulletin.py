@@ -82,7 +82,7 @@ class Microsoft_Bulletin_Scanner(object):
 								'the information provided' in para.text.lower() or
 								'built at' in para.text.lower()):
 								continue
-							entry_desc = entry_desc + para.text.strip() + '\n'
+							entry_desc = entry_desc + para.text.strip() + ' '
 
 						if (entry_desc != ''):
 							xml_string = bundle_xml(entry_src, entry_type, entry_id, entry_title, entry_date, clean(entry_desc))

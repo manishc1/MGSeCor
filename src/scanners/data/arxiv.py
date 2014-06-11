@@ -59,15 +59,17 @@ class Arxiv_Scanner(object):
 					entry_desc = clean(pdf_url_to_string(entry_pdf_url, entry_id + '.pdf'))
 				except Exception as e:
 					print str(e)
+					print 'description not found'
 					continue
 
-				xml_string = bundle_xml(entry_src, entry_type, entry_id, entry_title, entry_date, entry_desc)
-				write_string(self.corpus_dir + '/' + entry_id + '.xml', xml_string, False)
-				write_string(self.raw_dir + '/' + entry_id + '.txt', entry_desc, True)
+				if (entry_desc != ''):
+					xml_string = bundle_xml(entry_src, entry_type, entry_id, entry_title, entry_date, entry_desc)
+					write_string(self.corpus_dir + '/' + entry_id + '.xml', xml_string, False)
+					write_string(self.raw_dir + '/' + entry_id + '.txt', entry_desc, True)
 
-				self.count = self.count + 1
-				if (self.count % 100 == 0):
-					print 'Scanned ' + str(self.count) + ' files from recent'
+					self.count = self.count + 1
+					if (self.count % 100 == 0):
+						print 'Scanned ' + str(self.count) + ' files from recent'
 
 			if (len(entries) < self.max):
 				break

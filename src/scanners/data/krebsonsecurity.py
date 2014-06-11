@@ -74,14 +74,15 @@ class Adobe_Blog_Scanner(object):
 						else:
 							entry_desc = clean(entry_desc.text)
 						
-						xml_string = bundle_xml(entry_src, entry_type, entry_id, entry_title, entry_date, entry_desc)
+						if (entry_desc != ''):
+							xml_string = bundle_xml(entry_src, entry_type, entry_id, entry_title, entry_date, entry_desc)
 
-						write_string(self.corpus_dir + '/' + asciify(entry_type).lower().replace(' ', '_') + '/' + asciify(entry_title).replace(' ', '_') + '.xml', xml_string, False)
-						write_string(self.raw_dir + '/' + asciify(entry_type).lower().replace(' ', '_') + '/' + asciify(entry_title).replace(' ', '_') + '.txt', entry_desc, True)
+							write_string(self.corpus_dir + '/' + asciify(entry_type).lower().replace(' ', '_') + '/' + asciify(entry_title).replace(' ', '_') + '.xml', xml_string, False)
+							write_string(self.raw_dir + '/' + asciify(entry_type).lower().replace(' ', '_') + '/' + asciify(entry_title).replace(' ', '_') + '.txt', entry_desc, True)
 
-						self.count = self.count + 1
-						if (self.count % 100 == 0):
-							print 'Scanned ' + str(self.count) + ' files from ' + blog
+							self.count = self.count + 1
+							if (self.count % 100 == 0):
+								print 'Scanned ' + str(self.count) + ' files from ' + blog
 
 					if (month == 12):
 						month = 1
