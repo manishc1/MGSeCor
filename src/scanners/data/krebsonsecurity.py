@@ -74,11 +74,11 @@ class Adobe_Blog_Scanner(object):
 						else:
 							entry_desc = clean(entry_desc.text)
 						
-						if (entry_desc != ''):
-							xml_string = bundle_xml(entry_src, entry_type, entry_id, entry_title, entry_date, entry_desc)
+						if (''.join(entry_desc.split()) != ''):
+							xml_string = bundle_xml(entry_src, entry_type, entry_id, entry_title, entry_date, clean(entry_desc))
 
-							write_string(self.corpus_dir + '/' + asciify(entry_type).lower().replace(' ', '_') + '/' + asciify(entry_title).replace(' ', '_') + '.xml', xml_string, False)
-							write_string(self.raw_dir + '/' + asciify(entry_type).lower().replace(' ', '_') + '/' + asciify(entry_title).replace(' ', '_') + '.txt', entry_desc, True)
+							write_string(self.corpus_dir + '/' + asciify(entry_type).lower().replace(' ', '_').replace('/', '_') + '/' + asciify(entry_title).lower().replace(' ', '_').replace('/', '_') + '.xml', xml_string, False)
+							write_string(self.raw_dir + '/' + asciify(entry_type).lower().replace(' ', '_').replace('/', '_') + '/' + asciify(entry_title).lower().replace(' ', '_').replace('/', '_') + '.txt', entry_desc, True)
 
 							self.count = self.count + 1
 							if (self.count % 100 == 0):

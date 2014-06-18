@@ -65,16 +65,16 @@ class Wikipedia_Scanner(object):
 						article = self.wiki.get_article(result)
 						entry_src = 'wikipedia_' + self.category
 						entry_type = 'article'
-						entry_id = 'wikipedia_' + result.replace(' ', '_')
+						entry_id = 'wikipedia_' + result.replace(' ', '_').replace('/', '_')
 						entry_title = article.heading
 						entry_date = datetime.now().strftime('%Y-%m-%d_%H-%M-%S-%f')
 						entry_desc = clean(article.summary)
 
-						if (entry_desc != ''):
+						if (''.join(entry_desc.split()) != ''):
 							xml_string = bundle_xml(entry_src, entry_type, entry_id, entry_title, entry_date, entry_desc)
 			
-							write_string(self.corpus_dir + '/' + entry_id + '.xml', xml_string, False)
-							write_string(self.raw_dir + '/' + entry_id + '.txt', entry_desc, True)
+							write_string(self.corpus_dir + '/' + entry_id.lower() + '.xml', xml_string, False)
+							write_string(self.raw_dir + '/' + entry_id.lower() + '.txt', entry_desc, False)
 						
 							self.count = self.count + 1
 							if (self.count % 100 == 0):

@@ -82,14 +82,17 @@ class Adobe_Blog_Scanner(object):
 								print 'description not found'
 								continue
 							paras = article_div.findAll('p')
+							para_lines = []
 							for para in paras:
-								entry_desc = entry_desc + para.text.strip() + ' '
+								para_lines.append(para.text)
 
-							if (entry_desc != ''):
+							entry_desc = '\n'.join(para_lines)
+
+							if (''.join(entry_desc.split()) != ''):
 								xml_string = bundle_xml(entry_src, entry_type, entry_id, entry_title, entry_date, clean(entry_desc))
 			
-								write_string(self.corpus_dir + '/' + asciify(entry_type).lower().replace(' ', '_') + '/' + asciify(entry_title).replace(' ', '_') + '.xml', xml_string, False)
-								write_string(self.raw_dir + '/' + asciify(entry_type).lower().replace(' ', '_') + '/' + asciify(entry_title).replace(' ', '_') + '.txt', entry_desc, True)
+								write_string(self.corpus_dir + '/' + asciify(entry_type).lower().replace(' ', '_').replace('/', '_') + '/' + asciify(entry_title).lower().replace(' ', '_').replace('/', '_') + '.xml', xml_string, False)
+								write_string(self.raw_dir + '/' + asciify(entry_type).lower().replace(' ', '_').replace('/', '_') + '/' + asciify(entry_title).lower().replace(' ', '_').replace('/', '_') + '.txt', entry_desc, True)
 
 								self.count = self.count + 1
 								if (self.count % 100 == 0):

@@ -75,6 +75,7 @@ class Microsoft_Bulletin_Scanner(object):
 
 						entry_desc = ''
 						paras = div.findAll('p', recursive=True)
+						para_lines = []
 						for para in paras:
 							# hacks
 							if (len(para.text.split(' ')) < 10 or
@@ -82,13 +83,15 @@ class Microsoft_Bulletin_Scanner(object):
 								'the information provided' in para.text.lower() or
 								'built at' in para.text.lower()):
 								continue
-							entry_desc = entry_desc + para.text.strip() + ' '
+							para_lines.append(para.text)
 
-						if (entry_desc != ''):
+						entry_desc = '\n'.join(para_lines)
+
+						if (''.join(entry_desc.split()) != ''):
 							xml_string = bundle_xml(entry_src, entry_type, entry_id, entry_title, entry_date, clean(entry_desc))
 
-							write_string(self.corpus_dir + '/' + entry_id + '.xml', xml_string, False)
-							write_string(self.raw_dir + '/' + entry_id + '.txt', entry_desc, True)
+							write_string(self.corpus_dir + '/' + entry_id.lower() + '.xml', xml_string, False)
+							write_string(self.raw_dir + '/' + entry_id.lower() + '.txt', entry_desc, True)
 
 							self.count = self.count + 1
 							if (self.count % 100 == 0):

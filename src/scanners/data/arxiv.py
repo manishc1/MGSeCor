@@ -34,6 +34,7 @@ class Arxiv_Scanner(object):
 		self.url = ARXIV_SEARCH_QUERY_URL.replace('<CATEGORY>', category)
 		self.corpus_dir = CORPUS_DIR + '/' + label + '/paper/arxiv/' + category
 		self.raw_dir = RAW_DATA_DIR + '/' + label + '/paper/arxiv/' + category
+		self.category = category
 		self.max = 100
 		self.count = 0
 
@@ -54,22 +55,22 @@ class Arxiv_Scanner(object):
 				entry_title = entry.find('title').text.strip()
 				entry_date = entry.find('published').text.strip()
 				entry_pdf_url = entry.find('link', {'title':'pdf'}).get('href').strip() + '.pdf'
-				print entry_pdf_url
 				try:
 					entry_desc = clean(pdf_url_to_string(entry_pdf_url, entry_id + '.pdf'))
+					entry_desc = paragraphify(entry_desc)
 				except Exception as e:
-					print str(e)
+					print 'PDF Conversion Error in <' + entry_pdf_url + '> [' + str(e) + ']'
 					print 'description not found'
 					continue
 
-				if (entry_desc != ''):
+				if (''.join(entry_desc.split()) != ''):
 					xml_string = bundle_xml(entry_src, entry_type, entry_id, entry_title, entry_date, entry_desc)
-					write_string(self.corpus_dir + '/' + entry_id + '.xml', xml_string, False)
-					write_string(self.raw_dir + '/' + entry_id + '.txt', entry_desc, True)
+					write_string(self.corpus_dir + '/' + entry_id.lower() + '.xml', xml_string, False)
+					write_string(self.raw_dir + '/' + entry_id.lower() + '.txt', entry_desc, False)
 
 					self.count = self.count + 1
 					if (self.count % 100 == 0):
-						print 'Scanned ' + str(self.count) + ' files from recent'
+						print 'Scanned ' + str(self.count) + ' papers from ' + self.category
 
 			if (len(entries) < self.max):
 				break
