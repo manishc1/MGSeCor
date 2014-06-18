@@ -34,7 +34,7 @@ def read_to_string(filename, is_clean):
     """
     try:
         with open (filename, "r") as f:
-            string = f.read().replace('\n', ' ')
+            string = f.read()
         if (is_clean):
             string = clean(string)
         return string
