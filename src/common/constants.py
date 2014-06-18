@@ -81,7 +81,11 @@ COMPUTER_SCIENCE_GLOSSARY_LIST     = [GLOSSARY_DIR + '/computer_science_terms-1.
                                       GLOSSARY_DIR + '/computer_science_terms-3.gloss', \
                                       GLOSSARY_DIR + '/computer_science_terms-4.gloss']
 SECURITY_GLOSSARY_LIST             = [GLOSSARY_DIR + '/nist_glossary_of_key_information_security_terms.gloss', \
-									  GLOSSARY_DIR + '/security_terms.gloss']
+									  GLOSSARY_DIR + '/security_terms.gloss', \
+									  GLOSSARY_DIR + '/computer_systems_security.gloss', \
+									  GLOSSARY_DIR + '/homeland_security.gloss', \
+									  GLOSSARY_DIR + '/information_security.gloss', \
+									  GLOSSARY_DIR + '/niccs-us-cert-gov.gloss']
 STOPWORDS_GLOSSARY_LIST            = [GLOSSARY_DIR + '/stopwords.gloss']
 NON_COMPUTER_SCIENCE_GLOSSARY_LIST = [GLOSSARY_DIR + '/non_computer_science_terms.gloss']
 
