@@ -22,7 +22,7 @@ def download(url, filename):
 		urllib.urlretrieve(url, download_filename)
 		return download_filename
 	except Exception as e:
-		raise 'Download Error! [' + str(e) + ']'
+		raise e
 
 
 def pdf_to_txt(pdf_filename):
@@ -33,7 +33,7 @@ def pdf_to_txt(pdf_filename):
 		os.system('pdftotext %(pdf_filename)s' % locals())
 		return pdf_filename.replace('.pdf', '.txt')
 	except Exception as e:
-		raise 'Conversion Error! [' + str(e) + ']'
+		raise e
 
 
 def remove(filename):
@@ -43,4 +43,4 @@ def remove(filename):
 	try:
 		os.system('rm %(filename)s' % locals())
 	except Exception as e:
-		raise 'Delete Error! [' + str(e) + ']'
+		raise e

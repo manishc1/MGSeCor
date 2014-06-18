@@ -18,5 +18,5 @@ def pdf_url_to_string(url, filename):
 		else:
 			raise
 	except Exception as e:
-		raise 'PDF Error! [' + str(e) + ']'
+		raise e
 
