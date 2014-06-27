@@ -50,8 +50,6 @@ CORPUS_DIR            = DATA_DIR     + '/corpus'
 POSITIVE_CORPUS_DIR   = CORPUS_DIR   + '/positive'
 NEGATIVE_CORPUS_DIR   = CORPUS_DIR   + '/negative'
 
-FEATURE_DIR           = DATA_DIR     + '/feature'
-
 RAW_DATA_DIR          = DATA_DIR     + '/raw'
 POSITIVE_RAW_DATA_DIR = RAW_DATA_DIR + '/positive'
 NEGATIVE_RAW_DATA_DIR = RAW_DATA_DIR + '/negative'
@@ -60,11 +58,14 @@ NEGATIVE_RAW_DATA_DIR = RAW_DATA_DIR + '/negative'
 GLOSSARY_DIR          = HOME_DIR     + '/glossary'
 
 
+MODEL_DIR             = HOME_DIR     + '/model'
+
+CLASSIFIER_MODEL_DIR  = MODEL_DIR    + '/classifier'
+
+
 SRC_DIR               = HOME_DIR     + '/src'
 
 UTILS_DIR             = SRC_DIR      + '/utils'
-
-
 CLASSIFIERS_DIR       = SRC_DIR      + '/classifiers'
 COMMON_DIR            = SRC_DIR      + '/common'
 SCANNERS_DIR          = SRC_DIR      + '/scanners'
@@ -73,6 +74,7 @@ UTILS_DIR             = SRC_DIR      + '/utils'
 
 
 TEST_DIR              = HOME_DIR     + '/test'
+
 
 TMP_DIR               = HOME_DIR     + '/tmp'
 
