@@ -40,6 +40,8 @@ class Vocabulary_Creator(object):
 				if (filename.endswith('.possf2')):
 					string = read_to_string(rootdir+'/'+filename, True)
 					for word_tag in list(set(string.split(' '))):
+						if (len(word_tag.split('_')) != 2 ):
+							continue
 						word = word_tag.split('_')[0]
 						tag = word_tag.split('_')[1]
 						if (word.lower() in self.glossary):
