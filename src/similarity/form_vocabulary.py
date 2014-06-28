@@ -36,7 +36,7 @@ class Vocabulary_Creator(object):
 		"""
 		tagged_vocab = []
 		for rootdir, _, files in os.walk(self.directory):
-			for filenames in files:
+			for filename in files:
 				if (filename.endswith('.possf2')):
 					string = read_to_string(rootdir+'/'+filename, True)
 					for word_tag in list(set(string.split(' '))):
