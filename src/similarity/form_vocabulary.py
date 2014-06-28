@@ -35,7 +35,7 @@ class Vocabulary_Creator(object):
 		Creates the vocabulary and writes to the file.
 		"""
 		tagged_vocab = []
-		for rootdir, _, files in os.walk(directory):
+		for rootdir, _, files in os.walk(self.directory):
 			for filenames in files:
 				if (filename.endswith('.possf2')):
 					string = read_to_string(rootdir+'/'+filename, True)
