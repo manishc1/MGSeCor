@@ -34,7 +34,21 @@ class Vocabulary_Creator(object):
 		"""
 		Creates the vocabulary and writes to the file.
 		"""
-		print len(self.glossary)
+		tagged_vocab = []
+		for rootdir, _, files in os.walk(directory):
+			for filenames in files:
+				if (filename.endswith('.possf2')):
+					string = read_to_string(rootdir+'/'+filename, True)
+					for word_tag in list(set(string.split(' '))):
+						word = word_tag.split('_')[0]
+						tag = word_tag.split('_')[1]
+						if (word.lower() in self.glossary):
+							tagged_vocab.append('_'.join([word, tag]))
+							if (word != word.lower()):
+								tagged_vocab.append('_'.join([word.lower(), tag]))
+			tagged_vocab = list(set(tagged_vocab))
+
+		write_string(self.voc_filename, str(len(tagged_vocab)) + '\n' + '\n'.join(tagged_vocab), False)
 
 
 def main(directory, filename):
